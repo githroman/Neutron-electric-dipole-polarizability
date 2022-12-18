@@ -1,0 +1,7 @@
+#!/bin/bash -x
+epstopdf dis.eps
+epstopdf con.eps
+epstopdf all.eps
+pdfcrop dis.pdf dis.pdf
+pdfcrop all.pdf all.pdf
+pdfcrop con.pdf con.pdf
